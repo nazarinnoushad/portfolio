@@ -11,6 +11,6 @@ This is my personal portfolio website built with **React** and **Tailwind CSS**.
 
 ## Live Demo
 
-Check it out live here: [https://naz-p-ortfolio.netlify.app/](https://naz-p-ortfolio.netlify.app/)
+Check it out live here: [](https://naz-p-ortfolio.netlify.app/)
 
 
