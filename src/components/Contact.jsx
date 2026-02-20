@@ -8,12 +8,9 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm(
-        'service_m9dru0o',         // Your new Service ID
-        'template_z8su6yp',        // Your Template ID
-        form.current,              // Form reference
-        '_mGFaHHTxY_bzhU_M'       // Your new Public Key
-      )
+      .sendForm('service_m9dru0o', 'template_z8su6yp', form.current, {
+        publicKey: '_mGFaHHTxY_bzhU_M',
+      })
       .then(
         () => {
           alert('Message sent successfully!');
@@ -45,19 +42,19 @@ const Contact = () => {
             type="email"
             name="email"
             placeholder="Your Email"
-            className="w-full p-3 border border-gray-400 rounded-md"
+            className="w-full p-3 border border-gray-400 rounded-md "
             required
           />
           <textarea
             name="message"
             placeholder="Your Message"
             rows="5"
-            className="w-full p-3 border border-gray-400 rounded-md resize-none"
+            className="w-full p-3 border border-gray-400 rounded-md  resize-none"
             required
           />
           <button
             type="submit"
-            className="w-full py-3 bg-blue-900 text-white rounded-md transition-colors hover:bg-blue-700"
+            className="w-full py-3 bg-blue-900 text-white rounded-md  transition-colors"
           >
             Send Message
           </button>
@@ -68,4 +65,5 @@ const Contact = () => {
 };
 
 export default Contact;
+
 
