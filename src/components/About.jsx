@@ -1,3 +1,4 @@
+
 const About = () => {
   return (
     <section
@@ -18,16 +19,20 @@ const About = () => {
           </p>
 
           <p>
-            I completed my <span className="font-medium">Bachelor’s degree in Computer Applications</span>{" "}
-            from <span className="font-medium">MG University</span> and also
-            finished a <span className="font-medium">Diploma in MERN Stack Development</span>{" "}
+            I completed my{" "}
+            <span className="font-medium">Bachelor’s degree in Computer Applications</span>{" "}
+            and also finished a{" "}
+            <span className="font-medium">Diploma in MERN Stack Development</span>{" "}
             at <span className="font-medium">Unique Occasio Tech</span>.
           </p>
 
           <p>
-            At present, I am doing a <span className="font-medium">Full Stack Development Internship</span>{" "}
-            at <span className="font-medium">Relaxplzz Technology, Technopark</span>, where
-            I am gaining hands-on experience by working on real projects.
+            I have completed my{" "}
+            <span className="font-medium">Full Stack Development Internship</span>{" "}
+            at{" "}
+            <span className="font-medium">Relaxplzz Technologies, Technopark</span>,
+            where I gained hands-on experience by working on real-world projects
+            and developing practical skills in modern web technologies.
           </p>
         </div>
       </div>
