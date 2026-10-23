@@ -47,7 +47,7 @@ const Home = () => {
               <GitHub fontSize="inherit" />
             </a>
             <a
-              href="https://www.linkedin.com/in/nazarin-noushad-41691b338/"
+              href="https://www.linkedin.com/in/nazarinnoushad/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
